@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Home</title>
+        <style>
+            body{
+                margin: 0;
+                background-color: black;
+                font-family: monospace;
+                color: lightpink;
+                font-size: 30px;
+                display: grid;
+                place-items: center;
+            }
+            div {
+                text-align: center;
+                
+            }
+            #Backend {
+                scale: -1;
+            }
+            
+            @keyframes rotation {
+                0% {rotate: 0deg;}
+                50% {rotate: 180deg;}
+                100% {rotate: 360deg;}
+            }
+
+            main {
+                animation: rotation 10s infinite
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <p>some text</p>
+        <main>
+            <div>Frontend</div>
+            <div>🦄</div>
+            <div id="Backend">Backend</div>
+        </main>
+    
+    </body>
+</html>
